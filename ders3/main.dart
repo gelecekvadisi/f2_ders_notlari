@@ -36,11 +36,11 @@ void main() {
     print("sayi1 10-20 aralığında değil.");
   } */
 
-  /* if (sayi1 >= 10 || sayi1 >= 20) {
+  if (sayi1 >= 10 || sayi1 >= 20) {
     print("Sayi1 10'dan küçük veya 10'a eşit, 20 den büyük veya 20'ye eşit.");
   } else {
     print("sayi1 10-20 aralığında.");
-  } */
+  }
 
   /* bool mezunMu = true;
 
@@ -53,9 +53,10 @@ void main() {
         "Bu öğrenci mezun olmuş ve üniversite ile ilişiğini tamamamen kesmiş.");
   } */
 
-  String name = "Furkan";
+  String name = "Furkan Yağmur";
+  String password = "123456";
 
-  if (name.length > 10) {
+  if (password.length > 10) {
     print("İsim 10 karakterden büyüktür");
   } else {
     print("10 karakterden küçük");
