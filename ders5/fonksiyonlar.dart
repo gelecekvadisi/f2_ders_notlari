@@ -1,26 +1,23 @@
 void main() {
+  bakiyeGoster();
+
   toplamYazdir();
   toplamYazdir();
 
-  int toplam = topla(15, 20, 30, 40);
+  int toplam = topla(15, 20);
   print("Merhaba Ahmet! Bakiyen $toplam₺ 'dir.");
   // int toplam = 35;
 
   print("-----------------------");
 
-  vatandasBilgiYazdir(
-    name: "Davut",
-    tc: "2345678901",
-    yasi: 20,
-    evliMi: true,
-    ikametSehri: "İstanbul",
-    memleket: "Ankara",
-  );
+  vatandasBilgiYazdir(name: "Furkan", tc: "1234501854", ikametSehri: "İstanbul", memleket: "Adıyaman");
 }
+
+//  donus_tipi fonksiyon_adi(parametreler) {}
 
 void bakiyeGoster() {
   int bakiye = 100;
-  print("Mevcut Bakiyeniz: 100₺ dir.");
+  print("Mevcut Bakiyeniz: $bakiye₺ dir.");
 }
 
 void toplamYazdir() {
@@ -43,10 +40,11 @@ int topla(int sayi1, int sayi2, [int sayi3 = 0, int sayi4 = 0]) {
 // camelCase
 // snake_case
 
+//  İsimlendirilmiş Paramatre
 void vatandasBilgiYazdir({
   required String name,
-  required String tc,
-  required String memleket,
+  required String? tc,
+  String? memleket,
   String? ikametSehri,
   DateTime? dogumTarihi,
   DateTime? evlilikTarihi,

@@ -6,8 +6,7 @@ void main() {
   print("Hacim: " + hacimHesapla(en: 3, boy: 10, yukseklik: 5).toString());
 }
 
-void toplamYazdir(int sayi1, int sayi2) =>
-    print("Sayıların toplamı : " + (sayi1 + sayi2).toString());
+void toplamYazdir(int sayi1, int sayi2) => print("Sayıların toplamı : " + (sayi1 + sayi2).toString());
 
 int cevreHesapla(int kenar1, int kenar2) => (kenar1 + kenar2) * 2;
 
