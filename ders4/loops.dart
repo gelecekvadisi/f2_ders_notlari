@@ -32,9 +32,21 @@
 ///
 
 void main() {
-  int sayac = 1;
+  /* int sayac = 1;
   while (sayac <= 10) {
     print(sayac);
     sayac++;
+  } */
+
+  for (int sayac = 1; sayac <= 10; sayac++) {
+    // if (sayac % 2 == 1) {
+    // print(sayac);
+    // }
+
+    if (sayac % 2 == 0) {
+      continue;
+    }
+
+    print(sayac);
   }
 }

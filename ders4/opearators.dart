@@ -19,6 +19,7 @@
 /// Örn: 
 /// int sayi = 2;
 /// sayi += 3; // Burada sayi değişkeni "2+3" yani 5 değerini tutar. 
+/// sayi = sayi + 3;
 /// 
 /// 
 /// #Artırma ve Azaltma Operatörleri

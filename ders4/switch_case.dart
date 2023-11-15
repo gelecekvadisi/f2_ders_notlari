@@ -17,7 +17,7 @@
 ///
 
 void main() {
-  String harfNotu = "Furkan";
+  String harfNotu = "AA";
 
   switch (harfNotu) {
     case "AA":
