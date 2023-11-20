@@ -12,6 +12,7 @@ void main() {
   isimler.addAll(["Muhammed", "Osman", "Muhammed"]);
   print("Furkan listede var mı? : ${isimler.contains("Furkan")}");
   print("İndex: ${isimler.lastIndexOf("Muhammed")}");
+  print(isimler);
   isimler.shuffle();
   print(isimler);
 }
