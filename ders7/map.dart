@@ -6,6 +6,24 @@ void main(List<String> args) {
     "table": "masa"
   };
 
+  List ogrenciListesi= [
+    "Ahmet",
+    "Mehmet",
+    "Ali",
+    "Veli"
+  ];
+
+  Map ogrenciBilgileri = {
+    "adi": "Furkan",
+    "soyadi": "Yağmur",
+    "memleket": "Adıyaman",
+    "gno": 3.50,
+    "mezunMu": true,
+    "girisYili": 2010,
+  };
+
+  print("Giriş yılı: " + ogrenciBilgileri["girisYili"]!.toString());
+
   sozluk["computer"] = "Bilgisayar";
 
   print(sozluk["pencil"]);

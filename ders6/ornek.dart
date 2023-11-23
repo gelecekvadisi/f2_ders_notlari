@@ -1,5 +1,5 @@
 void main() {
-  List<String> katilimcilar = [];
+  List katilimcilar = [];
   katilimcilar.add("Furkan");
   katilimcilar.add("Ahmet");
   katilimcilar.addAll(["Burak", "Recep", "Ali"]);
@@ -20,7 +20,7 @@ void main() {
   bool cinsiyet = true;
 
   // var degisken = true;
-  dynamic degisken = true;
+  dynamic degisken = "Ahmet";
   dynamic degisken2 = "Adem";
   dynamic degisken3 = 123;
 }
