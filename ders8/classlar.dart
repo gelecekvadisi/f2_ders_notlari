@@ -1,4 +1,6 @@
 void main(List<String> args) {
+  Araba corolla = Araba("Toyota", "Corolla", 2020);
+
   Ogrenci ahmet = Ogrenci(
     ogrenciAdi: "Ahmet",
     sehir: "İstanbul",
@@ -50,16 +52,32 @@ void main(List<String> args) {
   Urun(this.ad);
 } */
 
+class Araba {
+  String? marka;
+  String? model;
+  int? modelYili;
+
+  Araba(this.marka, this.model, this.modelYili);
+
+  void calistir() {}
+}
+
 class Ogrenci {
-  String? ogrenciAdi;
+  String ogrenciAdi;
   String? sehir;
   String? bolumAdi;
   int? girisYili;
   bool? mezunMu;
   double? gno;
 
-  Ogrenci(
-      {required this.ogrenciAdi, required this.sehir, this.bolumAdi, this.girisYili, this.mezunMu, required this.gno}) {
+  Ogrenci({
+    required this.ogrenciAdi,
+    required this.sehir,
+    this.bolumAdi,
+    this.girisYili,
+    this.mezunMu,
+    required this.gno,
+  }) {
     /* this.ogrenciAdi = ogrenciAdi;
     this.sehir = sehir; */
 
