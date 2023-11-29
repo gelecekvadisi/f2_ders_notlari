@@ -10,6 +10,8 @@ void main(List<String> args) {
 
   Ucak boeing = Ucak();
   boeing.calistir();
+  boeing.yuksel();
+  boeing.alcal();
   boeing.kapat();
 }
 
@@ -23,7 +25,7 @@ class Arac {
   }
 }
 
-class Araba extends Arac{
+class Araba extends Arac {
   void sagaGit() {
     print("Araba sağa gidiyor");
   }
@@ -34,5 +36,11 @@ class Araba extends Arac{
 }
 
 class Ucak extends Arac {
+  void yuksel() {
+    print("Uçak yükseliyor.");
+  }
 
+  void alcal() {
+    print("Uçak alçalıyor.");
+  }
 }

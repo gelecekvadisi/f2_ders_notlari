@@ -26,7 +26,9 @@ class Araba {
   //  named constructor
   Araba.sifirAraba(this.marka, this.model, this.renk) {
     this.modelYili = 2023;
-    this.eskiSahipLeri = [];
+    this.eskiSahipLeri = [
+      "Ankara Bayisi"
+    ];
   }
   
   Araba.ikinciEl({

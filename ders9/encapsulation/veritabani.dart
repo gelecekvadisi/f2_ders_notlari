@@ -16,13 +16,25 @@ class VeritabaniIslemleri {
     return _userName;
   } */
 
-  String get userName => _userName;
-  set userName(String name) {
-    bool userSettingsPage = false;
-    if (userSettingsPage) {
-      _userName = name;
+  String get kullaniciAdi {
+    return "Kullanıcı adı: " + _userName;
+  }
+
+  void set password(String newPassword) {
+    if (newPassword.length < 8) {
+      print("Yeni parolanızın uzunluğu 8 karakterden küçük olamaz.");
     } else {
-      print("Kullanıcı ayarları sayfası haricinde userName verisi değiştirilemez.");
+      _password = newPassword;
     }
   }
+
+  // String get userName => _userName;
+  // set userName(String name) {
+  //   bool userSettingsPage = false;
+  //   if (userSettingsPage) {
+  //     _userName = name;
+  //   } else {
+  //     print("Kullanıcı ayarları sayfası haricinde userName verisi değiştirilemez.");
+  //   }
+  // }
 }

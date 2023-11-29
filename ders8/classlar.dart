@@ -73,7 +73,7 @@ class Ogrenci {
   Ogrenci({
     required this.ogrenciAdi,
     required this.sehir,
-    this.bolumAdi,
+    required String bolumAdi,
     this.girisYili,
     this.mezunMu,
     required this.gno,
