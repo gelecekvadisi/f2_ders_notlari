@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'my_home_page.dart';
+import 'package:flutter_application_2/buttons.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: true,
       theme: ThemeData(
         textTheme: TextTheme(
           displayLarge: TextStyle(
@@ -21,7 +20,7 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
-      home: MyHomePage(),
+      home: ButtonPage(),
     );
   }
 }
