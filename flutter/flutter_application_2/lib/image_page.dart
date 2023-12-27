@@ -24,7 +24,7 @@ class ImagePage extends StatelessWidget {
                   decoration: BoxDecoration(
                     image: DecorationImage(image: NetworkImage(_imageUrl)),
                   ),
-                ), */
+                ),   */
                 Expanded(
                   child: Container(
                     width: 150,

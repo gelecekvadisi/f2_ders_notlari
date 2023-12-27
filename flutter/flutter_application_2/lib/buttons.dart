@@ -18,7 +18,6 @@ class ButtonPage extends StatelessWidget {
             onLongPress: () {
               debugPrint("1. butona basılı tutuldu.");
             },
-            
             child: Text("TextButton"),
           ),
           TextButton.icon(
